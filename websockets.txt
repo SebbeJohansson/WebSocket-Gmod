@@ -1,0 +1,7 @@
+"websockets"
+{
+	"base"		"sandbox"
+	"title"		"Websockets Test"
+	"category"	"other"
+	"menusystem"	"1"
+}
