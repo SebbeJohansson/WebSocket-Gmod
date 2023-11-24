@@ -47,5 +47,6 @@ function GM:PlayerSay(sender, text, teamChat)
 
     chatWebSocket:write(util.TableToJSON(message))
 
-    return text
+    -- Prevent normal chat message from printing.
+    return ""
 end
